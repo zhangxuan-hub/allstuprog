@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--配置全局属性-->
+    <settings>
+        <!-- 开启驼峰命名转换 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!-- 可配置多个环境，default：使用的环境的名称 -->
+    <environments default="mysqlEL">
+        <!-- 具体环境变量,default为环境名称，可以通过使用该名称-->
+        <environment id="mysqlEL">
+            <!-- 事务管理方式 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 配置数据源,此处为mybatis自带的数据库连接池  -->
+            <dataSource type="POOLED">
+                <!-- <property>为连接池属性配置配置标签 -->
+                <!-- 驱动 -->
+                <property name="driver" value="com.mysql.jdbc.Driver"></property>
+                <!-- 连接 -->
+                <property name="url" value="jdbc:mysql://192.168.0.203:3306/stusql"></property>
+                <!-- 用户名 -->
+                <property name="username" value="root"></property>
+                <!-- 密码 -->
+                <property name="password" value="123456"></property>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--注册映射文件,该标签填写的是所有注册到框架中的映射文件-->
+    <mappers>
+        <!--具体的映射文件配置,resource:配置sql语句的xml的全路径-->
+        <mapper resource="com/zx/dao/mapper.xml"/>
+    </mappers>
+
+</configuration>
