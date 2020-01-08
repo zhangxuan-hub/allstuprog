@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+    <!-- parameterType属性可以省略不写 -->
+    <insert id="insertStudent" parameterType="student">
+        insert into student(name, age, score, create_time)
+        value(#{name},#{age},#{score},#{createTime});
+    </insert>
+
+    <!-- parameterType属性可以省略不写 -->
+    <insert id="insertStuCatchId">
+        insert into student(name, age, score, create_time)
+        value(#{name},#{age},#{score},#{createTime});
+        <!--
+            当插入元素在表中的主键为自动增加时，获取递增的主键id
+            resultType：返回的主键类型
+            keyProperty：主键的字段名称
+         -->
+        <selectKey resultType="int" keyProperty="id">
+            select @@identity
+        </selectKey>
+    </insert>
+
+    <delete id="delStudById">
+        <!-- 这里的#{}仅仅是个展位符，里面些什么都可以 -->
+        delete from student where id=#{xxx}
+    </delete>
+
+    <update id="updateStuById">
+        update student set score=#{score} where id=#{id}
+    </update>
+
+    <select id="selstuNoParam" resultType="com.zx.signtabcrud.beans.Student">
+        select tid, tname, tage, tscore,tcreate_time from student
+    </select>
+
+    <select id="selStuById" resultType="com.zx.signtabcrud.beans.Student">
+        select * from student where id=#{id}
+    </select>
+
+    <!-- 模糊查询 -->
+    <select id="selStudentByName" resultType="com.zx.signtabcrud.beans.Student">
+        <!-- select * from student where name like concat('%',#{name},'%') -->
+        <!-- 常用 -->
+        select * from student where name like '%'#{name}'%'
+    </select>
+</mapper>

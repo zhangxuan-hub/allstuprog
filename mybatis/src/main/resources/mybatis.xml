@@ -3,12 +3,22 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <!-- 数据源连接信息的文件 -->
+    <properties resource="jdbc_mysql.properties"/>
 
     <!--配置全局属性-->
     <settings>
         <!-- 开启驼峰命名转换 -->
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
+
+    <!-- 为实体类起别名 -->
+    <typeAliases>
+        <!-- 具体实体类的别名(开发中一般不用) -->
+        <!--<typeAlias type="com.zx.beans.Student" alias="student"/>-->
+        <!-- 将指定包中所有类的简单类名当作别名 -->
+        <package name="com.zx.signtabcrud.beans"/>
+    </typeAliases>
 
     <!-- 可配置多个环境，default：使用的环境的名称 -->
     <environments default="mysqlEL">
@@ -20,13 +30,13 @@
             <dataSource type="POOLED">
                 <!-- <property>为连接池属性配置配置标签 -->
                 <!-- 驱动 -->
-                <property name="driver" value="com.mysql.jdbc.Driver"></property>
+                <property name="driver" value="${jdbc.driver}"></property>
                 <!-- 连接 -->
-                <property name="url" value="jdbc:mysql://192.168.0.203:3306/stusql"></property>
+                <property name="url" value="${jdbc.url}"></property>
                 <!-- 用户名 -->
-                <property name="username" value="root"></property>
+                <property name="username" value="${jdbc.username}"></property>
                 <!-- 密码 -->
-                <property name="password" value="123456"></property>
+                <property name="password" value="${jdbc.password}"></property>
             </dataSource>
         </environment>
     </environments>
@@ -34,7 +44,9 @@
     <!--注册映射文件,该标签填写的是所有注册到框架中的映射文件-->
     <mappers>
         <!--具体的映射文件配置,resource:配置sql语句的xml的全路径-->
-        <mapper resource="com/zx/dao/mapper.xml"/>
+        <!--<mapper resource="com/zx/signtabcrud/dao/mapper.xml"/>-->
+        <!--<mapper resource="com/zx/propertycolumonun/dao/mapper.xml"/>-->
+        <mapper resource="com/zx/selectbymap/dao/mapper.xml"/>
     </mappers>
 
 </configuration>

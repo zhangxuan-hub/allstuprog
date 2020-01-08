@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zx.mapperdynamicproxy.dao.IStudentDao">
+    <!--
+        resultMap的作用：
+        当字段名与保存这些字段的实体的的成员变量名称不一样时，使用resultMap将它们设置为一一对应的关系
+     -->
+    <resultMap type="com.zx.signtabcrud.beans.Student" id="studentMapper">
+        <!-- 此标签为表中主键 -->
+        <id column="tid" property="id"/>
+        <!-- 其他列使用result标签 -->
+        <result column="tname" property="name"/>
+        <result column="tage" property="age"/>
+    </resultMap>
+
+    <!-- 字段名称为tid，tname, tage而成员变量为id，name, age故需要使用resultMap标签进行映射-->
+    <select id="selstuNoParam" resultMap="studentMapper">
+        select tid, tname, tage, score,create_time from student
+    </select>
+
+    <select id="selStuById" resultMap="studentMapper">
+        select id, name, age, score,create_time from student where id=#{id}
+    </select>
+
+</mapper>
