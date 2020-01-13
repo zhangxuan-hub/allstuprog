@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd7cd641-66a2-4c0e-b9c2-cf9aa1da4f7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one/beans/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one/beans/Minister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one/dao/ICountryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one/dao/IMinisterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one/dao/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/one2many/beans/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/one2many/beans/Minister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/one2many/dao/ICountryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/many2one/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/one2many/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/selectbymap/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/one2many/dao/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/jdbc_mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/jdbc_mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/beans/NewsLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao/INewsLabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/oneself/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/test/com/zx/mapperdynamicproxy/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/mapperdynamicproxy/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/test/com/zx/signtabcrud/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/signtabcrud/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/META-INF/mybatis.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/propertycolumonun/dao/mapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/selectbymap/dao/IStudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/zx/selectbymap/dao/IStudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/selectbymap/dao/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/com/zx/selectbymap/dao/mapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/jdbc_mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/jdbc_mysql.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/META-INF/mybatis.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/mapperdynamicproxy/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/mapperdynamicproxy/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/signtabcrud/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/signtabcrud/AppTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578537640919" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/many2one" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -77,18 +56,20 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\one2many\dao" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zx.many2one" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\many2one" />
-      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zx.oneself" />
       <recent name="com.zx.many2one" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\one2many\dao" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\oneself\dao" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\many2one" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,7 +186,8 @@
       <updated>1578530860591</updated>
       <workItem from="1578530861817" duration="4459000" />
       <workItem from="1578617484022" duration="3782000" />
-      <workItem from="1578872990553" duration="7882000" />
+      <workItem from="1578872990553" duration="8525000" />
+      <workItem from="1578890161058" duration="2419000" />
     </task>
     <servers />
   </component>
