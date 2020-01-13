@@ -4,7 +4,6 @@ import com.zx.signtabcrud.beans.Student;
 import com.zx.signtabcrud.dao.IStudentDao;
 import com.zx.signtabcrud.dao.impl.StudentDaoImpl;
 import com.zx.utils.MyBatisutils;
-import org.apache.ibatis.session.SqlSession;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

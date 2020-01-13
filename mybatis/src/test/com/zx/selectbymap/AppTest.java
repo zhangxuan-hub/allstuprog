@@ -1,4 +1,4 @@
-package com.zx.mapperdynamicproxy;
+package com.zx.selectbymap;
 
 import com.zx.selectbymap.dao.IStudentDao;
 import com.zx.signtabcrud.beans.Student;
@@ -8,12 +8,18 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.text.ParseException;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
+/**
+ * @ClassName AppTest
+ * @Author zhangxuan
+ * @Description TODO
+ * @Date 2020/1/9 9:04
+ * @Version 1.0
+ */
 public class AppTest {
+
     private SqlSession sqlSession;
     private IStudentDao studentDao;
 
@@ -25,18 +31,27 @@ public class AppTest {
 
     @After
     public void close() {
-        sqlSession.commit();
         MyBatisutils.closeSqlSession();
     }
 
     @Test
-    public void test01() throws ParseException {
-        Map<String, Object> params = new HashMap<String, Object>();
-        Student student = new Student("田七", 27, 95);
-        params.put("name", "猪");
-        params.put("age", "23");
-        params.put("stu", student);
-        List<Student> students = studentDao.selectStuByCondition(params);
+    public void test01() {
+        List<Student> students = studentDao.selstuByParams("", null);
+        System.out.println(students);
+    }
+
+    @Test
+    public void test02() {
+        Student stu1 = new Student();
+        Student stu2 = new Student();
+        stu1.setId(1);
+        stu2.setId(5);
+
+        List<Student> ids = new ArrayList<Student>();
+        ids.add(stu1);
+        ids.add(stu2);
+
+        List<Student> students = studentDao.selStuByForeachGenerics(ids);
         System.out.println(students);
     }
 }
