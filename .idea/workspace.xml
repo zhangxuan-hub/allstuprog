@@ -2513,12 +2513,34 @@
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.8.1/doxia-site-renderer-1.8.1.jar" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.8.1/doxia-site-renderer-1.8.1.jar.sha1" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-site-renderer/1.8.1/doxia-site-renderer-1.8.1.pom.sha1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/beans/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/IStudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/IStudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/utils/MyBatisutils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/jdbc_mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/mapperdynamicproxy/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/propertycolumonun/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/signtabcrud/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/beans/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/IStudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/beans/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/IStudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/impl/IStudentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/AppTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -2533,52 +2555,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="190">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/mapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="36" selection-start-column="36" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -2597,6 +2580,7 @@
       <find>&amp;</find>
       <find>format</find>
       <find>settings</find>
+      <find>root</find>
     </findStrings>
     <replaceStrings>
       <replace>?</replace>
@@ -2609,16 +2593,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/bean/Student.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/IStudentDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/beans/Student.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java" />
         <option value="$PROJECT_DIR$/mybatis/src/mybatis.xml" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java" />
         <option value="$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/utils/MyBatisutils.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/jdbc_mysql.properties" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/beans/Student.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/com/zx/signtabcrud/AppTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/IStudentDao.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/com/zx/propertycolumonun/AppTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/impl/StudentDaoImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/IStudentDao.java" />
         <option value="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/beans/Student.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/mapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/src/test/com/zx/mapperdynamicproxy/AppTest.java" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java" />
       </list>
     </option>
   </component>
@@ -2648,7 +2652,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -2711,6 +2714,52 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="mapperdynamicproxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="mapperdynamicproxy" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="propertycolumonun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="selectbymap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="selectbymap" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2749,79 +2798,71 @@
               <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="mapperdynamicproxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="propertycolumonun" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allstuprog" type="b2602c69:ProjectViewProjectNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="signtabcrud" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578231709102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578479874381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zx.signtabcrud" />
+      <recent name="com.zx" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\myprog\allstuprog\mybatis\target\classes\com\zx\dao\impl" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\selectbymap" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\mapperdynamicproxy" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\propertycolumonun" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zx.propertycolumonun.beans" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\signtabcrud\dao" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\resources" />
       <recent name="E:\myprog\allstuprog\mybatis\target\classes\com\zx\dao" />
       <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\dao" />
-      <recent name="E:\myprog\allstuprog\mybatis\src\main\resources" />
       <recent name="E:\myprog\allstuprog\mybatis\src" />
     </key>
   </component>
@@ -2837,18 +2878,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AppTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.test01">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zx.*" />
+          <option name="PATTERN" value="com.zx.mapperdynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zx" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.AppTest" />
-      <option name="METHOD_NAME" value="testInsert" />
+      <option name="PACKAGE_NAME" value="com.zx.mapperdynamicproxy" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.mapperdynamicproxy.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.selStudenByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.signtabcrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.signtabcrud" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.signtabcrud.AppTest" />
+      <option name="METHOD_NAME" value="selStudenByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.selStusNoParam (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.propertycolumonun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.propertycolumonun" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.propertycolumonun.AppTest" />
+      <option name="METHOD_NAME" value="selStusNoParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.selStusNoParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.signtabcrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.signtabcrud" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.signtabcrud.AppTest" />
+      <option name="METHOD_NAME" value="selStusNoParam" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.mapperdynamicproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.mapperdynamicproxy" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.mapperdynamicproxy.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -2856,7 +2960,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testInsert" />
+        <item itemvalue="JUnit.AppTest.test01" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.selStusNoParam (1)" />
+        <item itemvalue="JUnit.AppTest.selStusNoParam" />
+        <item itemvalue="JUnit.AppTest.selStudenByName" />
       </list>
     </recent_temporary>
   </component>
@@ -2873,6 +2981,9 @@
       <workItem from="1578187410284" duration="2032000" />
       <workItem from="1578218387615" duration="3473000" />
       <workItem from="1578224951806" duration="7080000" />
+      <workItem from="1578357190079" duration="11708000" />
+      <workItem from="1578444875249" duration="11724000" />
+      <workItem from="1578523877403" duration="216000" />
     </task>
     <task id="LOCAL-00001" summary="新建项目">
       <created>1578188879619</created>
@@ -2885,45 +2996,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 30m 45s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 02m 40s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 31m 26s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 03m 02s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 32m 27s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 03m 23s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 36m 31s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 13m 47s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 36m 50s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 15m 03s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 38m 26s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 16m 50s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 40m 00s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 18m 20s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 40m 55s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 18m 29s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 41m 08s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 18m 54s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsert - 2020.01.05 at 21h 41m 46s.xml">
-      <configuration name="AppTest.testInsert" configurationId="JUnit" />
+    <history-entry file="AppTest_test01 - 2020.01.08 at 12h 19m 55s.xml">
+      <configuration name="AppTest.test01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12585000" />
+    <option name="totallyTimeSpent" value="36233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25699168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2637944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2931,8 +3042,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38767123" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4041096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2942,7 +3053,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.8657534" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3452055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2954,7 +3065,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532124" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26001513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -2962,8 +3073,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43424657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2973,7 +3084,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.33013698" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3452055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2992,20 +3103,6 @@
     <MESSAGE value="新建项目" />
     <option name="LAST_COMMIT_MESSAGE" value="新建项目" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java</url>
-          <line>22</line>
-          <properties class="com.zx.AppTest" method="testInsert">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/xml/mybatis-3-config.dtd">
@@ -3015,13 +3112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -3053,67 +3143,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/IStudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/beans/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/test/com/zx/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/target/classes/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/mapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/mybatis/target/classes/com/zx/dao/mapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/mybatis/target/classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/mapper.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/utils/MyBatisutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/beans/Student.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/impl/IStudentDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/dao/IStudentDao.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/beans/Student.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/com/zx/signtabcrud/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/dao/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/mapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="36" selection-start-column="36" selection-end-column="36" />
+          <caret selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/propertycolumonun/dao/impl/StudentDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/impl/StudentDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        <state relative-caret-position="345">
+          <caret line="48" column="59" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/jdbc_mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/com/zx/propertycolumonun/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/mapperdynamicproxy/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/test/com/zx/mapperdynamicproxy/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#923#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.47/mysql-connector-java-5.1.47-sources.jar!/com/mysql/jdbc/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="407" selection-start-line="407" selection-end-line="407" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/signtabcrud/beans/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/mapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/com/zx/selectbymap/dao/IStudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
