@@ -3,17 +3,73 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zx.selectbymap.dao.IStudentDao">
+
     <resultMap id="studentMapper" type="Student">
         <id column="tid" property="id"/>
         <result column="tname" property="name"/>
         <result column="tage" property="age"/>
     </resultMap>
 
+    <sql id="selectColumns">
+        tid, tname, tage, score
+    </sql>
+
     <select id="selectStuByCondition" resultMap="studentMapper">
-      select tid, tname,tage,score
-      from student
-      <!-- 参数为map的key -->
-      where tname like concat('%',#{name},'%') and tage > #{age} and score>#{stu.score}
+        select tid, tname,tage,score
+        from student
+        <!-- 参数为map的key -->
+        where tname like concat('%',#{name},'%') and tage > #{age} and score>#{stu.score}
     </select>
 
+    <select id="selstuByParams" resultMap="studentMapper">
+        select <include refid="selectColumns"/>
+        from student
+        <where>
+            <choose>
+                <when test="name!=null and name!=''">
+                    and tname like concat('%', #{name} ,'%')
+                </when>
+                <when test="age!=null and age!=''">
+                    and tage>#{age}
+                </when>
+                <otherwise>
+                    1=2
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="selStuByForeach" resultMap="studentMapper">
+        select <include refid="selectColumns"/>
+        from student
+        <if test="array.length>0">
+            where tid in
+            <foreach collection="array" item="myid" open="(" close=")" separator=",">
+                #{myid}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selStuByForeachList" resultMap="studentMapper">
+        select <include refid="selectColumns"/>
+        from student
+        <if test="list.size>0">
+            where tid in
+            <foreach collection="list" item="myid" open="(" close=")" separator=",">
+                #{myid}
+            </foreach>
+        </if>
+    </select>
+
+    <select id="selStuByForeachGenerics" resultMap="studentMapper">
+        select
+        <include refid="selectColumns"/>
+        from student
+        <if test="list.size()>0">
+            where tid in
+            <foreach collection="list" item="stu" open="(" close=")" separator=",">
+                #{stu.id}
+            </foreach>
+        </if>
+    </select>
 </mapper>

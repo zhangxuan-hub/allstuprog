@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zx.one2many.dao.ICountryDao">
+    <!--
+        该sql语句用来查询minister这张表。
+        他的查询条件是id="selectContryById"，
+        我们需要将id="selectContryById"的sql查询出来的c_id配置到<resultMap>标签的column属性中，
+        并将该sql的id配置到<resultMap>标签的select属性中，
+        才能实现id="selectMinisterByCountryId"的sql使用id="selectContryById“的sql查询出的c_id作为自己的查询条件，
+        这种查询方式是可以进行延迟加载的配置
+     -->
+    <select id="selectMinisterByCountryId" resultType="Minister">
+            select m_id, m_name from minister where country_id=#{c_id}
+    </select>
+
+    <resultMap id="countryMapper" type="Country">
+        <id column="c_id" property="cId" />
+        <result column="c_name" property="cName"/>
+        <!--
+            使用这种方式进行多表查询，是对关联的表进行分别进行查询，可以配置延迟加载
+            其中：
+                property:关联属性的属性名
+                ofType: 查出来的值，需要被封装的实体
+                select：需要关联查询的表
+                column: 将两张表关联起来的条件
+         -->
+        <collection property="ministers"
+                    ofType="Minister"
+                    select="selectMinisterByCountryId"
+                    column="c_id"/>
+    </resultMap>
+
+    <select id="selectContryById" resultMap="countryMapper">
+        select c_id, c_name
+        from country
+        where c_id=#{cid}
+    </select>
+
+</mapper>

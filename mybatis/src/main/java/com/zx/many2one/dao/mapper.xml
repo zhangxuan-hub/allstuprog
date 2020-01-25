@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zx.many2one.dao.IMinisterDao">
+    <select id="selectCountryByID" resultType="Country">
+        select c_id,c_name
+        from country
+        where c_id=#{country_id}
+    </select>
+
+    <resultMap id="ministerMapper" type="Minister">
+        <id column="m_id" property="mId"/>
+        <result column="m_name" property="mName"/>
+        <!--
+            使用这种方式进行多表查询，是对关联的表进行分别进行查询，可以配置延迟加载
+            其中：
+                select：关联查询时所要执行的sql语句的id
+                column:关联条件
+        -->
+        <association property="country"
+                     javaType="Country"
+                     select="selectCountryByID"
+                     column="country_id"/>
+    </resultMap>
+
+    <select id="selectMinisterById" resultMap="ministerMapper">
+        select m_id,m_name, country_id
+        from minister
+        where m_id=#{mId}
+    </select>
+</mapper>

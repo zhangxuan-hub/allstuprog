@@ -17,7 +17,7 @@
         <!-- 具体实体类的别名(开发中一般不用) -->
         <!--<typeAlias type="com.zx.beans.Student" alias="student"/>-->
         <!-- 将指定包中所有类的简单类名当作别名 -->
-        <package name="com.zx.signtabcrud.beans"/>
+        <package name="com.zx.oneself.beans"/>
     </typeAliases>
 
     <!-- 可配置多个环境，default：使用的环境的名称 -->
@@ -46,7 +46,7 @@
         <!--具体的映射文件配置,resource:配置sql语句的xml的全路径-->
         <!--<mapper resource="com/zx/signtabcrud/dao/mapper.xml"/>-->
         <!--<mapper resource="com/zx/propertycolumonun/dao/mapper.xml"/>-->
-        <mapper resource="com/zx/selectbymap/dao/mapper.xml"/>
+        <mapper resource="com/zx/oneself/dao/mapper.xml"/>
     </mappers>
 
 </configuration>

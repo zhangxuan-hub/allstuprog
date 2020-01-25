@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ab616c5b-31a4-4c0c-8af2-39c2a1e5e394" name="Default Changelist" comment="新建项目">
       <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/_remote.repositories" afterDir="false" />
       <change afterPath="$MAVEN_REPOSITORY$/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.0/jackson-module-parameter-names-2.10.0.jar" afterDir="false" />
@@ -2542,16 +2543,25 @@
       <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis/target/test-classes/com/zx/AppTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+=======
+    <list default="true" id="dd7cd641-66a2-4c0e-b9c2-cf9aa1da4f7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/beans/NewsLabel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao/INewsLabelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao/mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/src/test/com/zx/oneself/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/target/classes/mybatis.xml" afterDir="false" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
@@ -2568,27 +2578,33 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>&amp;</find>
       <find>format</find>
       <find>settings</find>
       <find>root</find>
+=======
+      <find>com.zx.selectbymap.dao.IStudentDao</find>
+      <find>selstuByParams</find>
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
     </findStrings>
-    <replaceStrings>
-      <replace>?</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -2626,26 +2642,18 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="E:\apache-maven-3.5.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="40" />
-    <option name="width" value="2696" />
-    <option name="height" value="1664" />
-  </component>
+  <component name="ProjectId" id="1WBKKJArcvbgd3jhnBrS5m1lDeK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -2864,6 +2872,35 @@
       <recent name="E:\myprog\allstuprog\mybatis\target\classes\com\zx\dao" />
       <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\dao" />
       <recent name="E:\myprog\allstuprog\mybatis\src" />
+=======
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578537640919" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis/src/main/java/com/zx/oneself/dao" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\one2many\dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zx.many2one" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zx.oneself" />
+      <recent name="com.zx.many2one" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\oneself\dao" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx\many2one" />
+      <recent name="E:\myprog\allstuprog\mybatis\src\main\java\com\zx" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
     </key>
   </component>
   <component name="RunDashboard">
@@ -2878,6 +2915,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.AppTest.test01">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
@@ -2889,11 +2927,25 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zx.mapperdynamicproxy" />
       <option name="MAIN_CLASS_NAME" value="com.zx.mapperdynamicproxy.AppTest" />
+=======
+  <component name="RunManager" selected="JUnit.AppTest.test01 (3)">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stumybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.one2many.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.one2many" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.one2many.AppTest" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AppTest.selStudenByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -2905,11 +2957,25 @@
       <option name="PACKAGE_NAME" value="com.zx.signtabcrud" />
       <option name="MAIN_CLASS_NAME" value="com.zx.signtabcrud.AppTest" />
       <option name="METHOD_NAME" value="selStudenByName" />
+=======
+    <configuration name="AppTest.test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stumybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.selectbymap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.selectbymap" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.selectbymap.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AppTest.selStusNoParam (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -2921,11 +2987,25 @@
       <option name="PACKAGE_NAME" value="com.zx.propertycolumonun" />
       <option name="MAIN_CLASS_NAME" value="com.zx.propertycolumonun.AppTest" />
       <option name="METHOD_NAME" value="selStusNoParam" />
+=======
+    <configuration name="AppTest.test01 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stumybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.one2many.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.one2many" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.one2many.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="AppTest.selStusNoParam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -2953,6 +3033,35 @@
       <option name="PACKAGE_NAME" value="com.zx.mapperdynamicproxy" />
       <option name="MAIN_CLASS_NAME" value="com.zx.mapperdynamicproxy.AppTest" />
       <option name="METHOD_NAME" value="test01" />
+=======
+    <configuration name="AppTest.test01 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stumybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.many2one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.many2one" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.many2one.AppTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stumybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.selectbymap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zx.selectbymap" />
+      <option name="MAIN_CLASS_NAME" value="com.zx.selectbymap.AppTest" />
+      <option name="METHOD_NAME" value="test02" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -2960,11 +3069,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JUnit.AppTest.test01" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.selStusNoParam (1)" />
         <item itemvalue="JUnit.AppTest.selStusNoParam" />
         <item itemvalue="JUnit.AppTest.selStudenByName" />
+=======
+        <item itemvalue="JUnit.AppTest.test01 (3)" />
+        <item itemvalue="JUnit.AppTest.test01 (2)" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.test02" />
+        <item itemvalue="JUnit.AppTest.test01 (1)" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
       </list>
     </recent_temporary>
   </component>
@@ -2973,10 +3090,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab616c5b-31a4-4c0c-8af2-39c2a1e5e394" name="Default Changelist" comment="" />
-      <created>1578187405905</created>
+      <changelist id="dd7cd641-66a2-4c0e-b9c2-cf9aa1da4f7f" name="Default Changelist" comment="" />
+      <created>1578530860591</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1578187405905</updated>
       <workItem from="1578187410284" duration="2032000" />
       <workItem from="1578218387615" duration="3473000" />
@@ -2991,10 +3109,17 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1578188879619</updated>
+=======
+      <updated>1578530860591</updated>
+      <workItem from="1578530861817" duration="4459000" />
+      <workItem from="1578617484022" duration="3782000" />
+      <workItem from="1578872990553" duration="8525000" />
+      <workItem from="1578890161058" duration="2419000" />
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="AppTest_test01 - 2020.01.08 at 12h 02m 40s.xml">
       <configuration name="AppTest.test01" configurationId="JUnit" />
@@ -3345,33 +3470,26 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 7fab0e0ae8dc966433103252defbb81a35b25a1e
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -3395,19 +3513,6 @@
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>mybatis</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -3422,7 +3527,6 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
