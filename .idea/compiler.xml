@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis" />
         <module name="stumybatis" />
+        <module name="threadtwo" />
       </profile>
     </annotationProcessing>
   </component>
