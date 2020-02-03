@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b96aa19f-b137-452a-b0ac-01f7d49c00aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/UserPersonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ThreadLifeCycleObserver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ThreadLifeCycleObserver$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalComplexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ActionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ExecutionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/QueryFormDBAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter12/BalkingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/CustomerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProductAndConsumerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProducterThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/JDKCountDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/AsynFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/SynInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ServiceThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/SuspensionClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/Person.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/threadtwo/target/" />
@@ -33,11 +53,38 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/JDKCountDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,6 +104,33 @@
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableClient.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/Person.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/Future.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureTask.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/AsynFuture.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureService.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/SynInvoker.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/Request.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ServiceThread.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/RequestQueue.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ClientThread.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/SuspensionClient.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalComplexTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/QueryAction.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/QueryFormDBAction.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/Context.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ExecutionTask.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ActionContext.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter12/BalkingData.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/Message.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/Producter.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProducterThread.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/CustomerThread.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProductAndConsumerClient.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/MessageQueue.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDowm.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDown.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/JDKCountDown.java" />
       </list>
     </option>
   </component>
@@ -79,7 +153,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="338" />
     <option name="y" value="140" />
     <option name="width" value="1184" />
@@ -141,7 +215,56 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,13 +278,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580478432012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580644656761" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="allstuprog.com.zx.chapter13" />
+      <recent name="allstuprog.com.zx.chapter11" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,13 +304,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ImmutableClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter7.ImmutableClient" />
+  <component name="RunManager" selected="Application.JDKCountDown">
+    <configuration name="JDKCountDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter14.JDKCountDown" />
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.chapter7.*" />
+          <option name="PATTERN" value="allstuprog.com.zx.chapter14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductAndConsumerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter13.ProductAndConsumerClient" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.chapter13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuspensionClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter9.SuspensionClient" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.chapter9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalComplexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter10.ThreadLocalComplexTest" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.chapter10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalSimpleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.chapter10.ThreadLocalSimpleTest" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,7 +372,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImmutableClient" />
+        <item itemvalue="Application.JDKCountDown" />
+        <item itemvalue="Application.ProductAndConsumerClient" />
+        <item itemvalue="Application.ThreadLocalComplexTest" />
+        <item itemvalue="Application.ThreadLocalSimpleTest" />
+        <item itemvalue="Application.SuspensionClient" />
       </list>
     </recent_temporary>
   </component>
@@ -209,26 +394,30 @@
       <workItem from="1580377622968" duration="180000" />
       <workItem from="1580377849751" duration="849000" />
       <workItem from="1580475630225" duration="2814000" />
+      <workItem from="1580521160917" duration="5894000" />
+      <workItem from="1580545412647" duration="6435000" />
+      <workItem from="1580611588352" duration="3900000" />
+      <workItem from="1580633626071" duration="9110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3963000" />
+    <option name="totallyTimeSpent" value="29302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17384732" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20710507" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24759285" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.11691885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21870701" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,6 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3287483" />
       <window_info anchor="bottom" id="Tail" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2494331" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,6 +544,233 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/AsynFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="46" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/SynInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ServiceThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="37" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/SuspensionClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/RequestQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalComplexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#150#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ExecutionTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ActionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="5" selection-start-line="9" selection-start-column="37" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#245#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter12/BalkingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/QueryFormDBAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="669" column="17" selection-start-line="669" selection-start-column="17" selection-end-line="669" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProducterThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/CustomerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProductAndConsumerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+          <folding>
+            <element signature="e#9899#9900#0" expanded="true" />
+            <element signature="e#9936#9937#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/JDKCountDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
