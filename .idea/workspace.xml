@@ -2,130 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b96aa19f-b137-452a-b0ac-01f7d49c00aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter15/AppServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter15/CounterIncrement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter15/CounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter16/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter16/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter16/TransportThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter16/WorkerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter16/WorkerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/FutureTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/AtomicIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/JITTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtmicIntegerDetailTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter1/SingleObject1.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter1/SingleObject1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter1/SingleObject2.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter1/SingleObject2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter1/SingleObject3.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter1/SingleObject3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter1/SingleObject4.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter1/SingleObject4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalComplexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter10/ThreadLocalComplexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter10/ThreadLocalSimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ActionContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter11/ActionContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter11/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/ExecutionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter11/ExecutionTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter11/QueryFormDBAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter11/QueryFormDBAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter12/BalkingData.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter12/BalkingData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/CustomerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter13/CustomerThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter13/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/MessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter13/MessageQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProductAndConsumerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter13/ProductAndConsumerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter13/ProducterThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter13/ProducterThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/CountDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter14/CountDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter14/JDKCountDown.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter14/JDKCountDown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter2/WaitSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter2/WaitSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter3/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter3/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/BinaryObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/BinaryObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/LifeCycleListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/LifeCycleListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/ObservableRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/ObservableRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/ObserverClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/ObserverClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/OctalObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/OctalObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/ThreadLifeCycleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/ThreadLifeCycleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter4/ThreadLifeCycleObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter4/ThreadLifeCycleObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter5/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter5/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter5/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter5/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter5/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter5/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter6/ReadWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/ReadWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter6/ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/ReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter6/ReaderWriterClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/ReaderWriterClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter6/ShareDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/ShareDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter6/WriterWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/WriterWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/ImmutableClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/ImmutableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/UserPersonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/UserPersonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/AsynFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/AsynFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/Future.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/Future.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/FutureService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/FutureTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter8/SynInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/SynInvoker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter9/ClientThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter9/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/RequestQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter9/RequestQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/ServiceThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter9/ServiceThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter9/SuspensionClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter9/SuspensionClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject3$InstanceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject4$Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter1/SingleObject4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter10/ThreadLocalComplexTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter10/ThreadLocalSimpleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/ActionContext$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/ActionContext$ContextHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/ActionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/Context.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/ExecutionTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter11/QueryFormDBAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter12/BalkingData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter13/CustomerThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter13/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter13/MessageQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter13/ProductAndConsumerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter13/ProducterThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter14/CountDown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter14/JDKCountDown.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter2/WaitSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter3/VolatileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/BinaryObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/LifeCycleListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ObservableRunnable$RunnableEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ObservableRunnable$RunnableState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ObservableRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ObserverClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/OctalObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ThreadLifeCycleClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ThreadLifeCycleObserver$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter4/ThreadLifeCycleObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter5/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter5/Gate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter5/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter6/ReadWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter6/ReadWriteLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter6/ReaderWriterClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter6/ShareDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter6/WriterWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/ImmutableClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/ImmutableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter7/UserPersonThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter8/AsynFuture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter8/Future.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter8/FutureService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter8/FutureTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter8/SynInvoker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter9/ClientThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter9/Request.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter9/RequestQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter9/ServiceThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/chapter9/SuspensionClient.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicBooleanFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerDetailTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/CompareAndSetLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/GetLockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicBooleanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/AtomicIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/JITTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/JITTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/AtomicIntegerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/AtomicIntegerTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/AtomicIntegerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/JITTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/JITTest$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/JITTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/threadtwo/target/" />
@@ -153,69 +44,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicReferenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="e#239#247#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/AtomicIntegerTest.java">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="32" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="57" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1528#1635#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1773#1880#0" expanded="true" />
-                <element signature="e#1879#1880#0" expanded="true" />
+                <element signature="e#239#248#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/JITTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="e#183#296#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#369#469#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtmicIntegerDetailTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
-              <folding>
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2460#2461#0" expanded="true" />
-                <element signature="e#4504#4505#0" expanded="true" />
-                <element signature="e#4572#4573#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/JDK/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="305" column="38" selection-start-line="305" selection-start-column="38" selection-end-line="305" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -233,6 +86,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>synchroniz</find>
+      <find>1</find>
+      <find>0x000000001a63e000</find>
+      <find>0x0000000019d40800</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -241,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/UserPersonThread.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableClient.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/Person.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/chapter7/ImmutableTest.java" />
@@ -286,6 +141,13 @@
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/JITTest.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtmicIntegerDetailTest.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/AtomicIntegerTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/GetLockException.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerDetailTest2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/CompareAndSetLock.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicBooleanTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicBooleanFlag.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicReferenceTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.java" />
       </list>
     </option>
   </component>
@@ -371,7 +233,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading3" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
@@ -388,6 +250,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atmic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -399,7 +270,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580733569722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580812893848" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -426,13 +297,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AtomicIntegerTest">
-    <configuration name="AtomicIntegerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading3.AtomicIntegerTest" />
+  <component name="RunManager" selected="Application.AtomicStampReferenceTest">
+    <configuration name="AtomicBooleanFlag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading3.atomic.AtomicBooleanFlag" />
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.multithreading3.*" />
+          <option name="PATTERN" value="allstuprog.com.zx.multithreading3.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading2.chapter15.CounterTest" />
+    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading3.atomic.AtomicReferenceTest" />
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.multithreading2.chapter15.*" />
+          <option name="PATTERN" value="allstuprog.com.zx.multithreading3.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -453,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JITTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading3.JITTest" />
+    <configuration name="AtomicStampReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading3.atomic.AtomicStampReferenceTest" />
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.multithreading3.*" />
+          <option name="PATTERN" value="allstuprog.com.zx.multithreading3.atomic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,20 +337,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.multithreading2.chapter16.WorkerClient" />
-      <module name="threadtwo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.multithreading2.chapter16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AtmicIntegerDetailTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicBooleanTest.TestGetAndSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
@@ -488,8 +346,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="allstuprog.com.zx.atmic" />
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.atmic.AtmicIntegerDetailTest" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.atmic.AtomicBooleanTest" />
+      <option name="METHOD_NAME" value="TestGetAndSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AtomicBooleanTest.testCompareAndSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.atmic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allstuprog.com.zx.atmic" />
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.atmic.AtomicBooleanTest" />
+      <option name="METHOD_NAME" value="testCompareAndSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -497,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AtomicIntegerTest" />
-        <item itemvalue="JUnit.AtmicIntegerDetailTest.testCreate" />
-        <item itemvalue="Application.JITTest" />
-        <item itemvalue="Application.WorkerClient" />
-        <item itemvalue="Application.CounterTest" />
+        <item itemvalue="Application.AtomicStampReferenceTest" />
+        <item itemvalue="Application.AtomicReferenceTest" />
+        <item itemvalue="Application.AtomicBooleanFlag" />
+        <item itemvalue="JUnit.AtomicBooleanTest.testCompareAndSet" />
+        <item itemvalue="JUnit.AtomicBooleanTest.TestGetAndSet" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +397,7 @@
       <workItem from="1580545412647" duration="6435000" />
       <workItem from="1580611588352" duration="3900000" />
       <workItem from="1580633626071" duration="9110000" />
-      <workItem from="1580693308615" duration="17754000" />
+      <workItem from="1580693308615" duration="33018000" />
     </task>
     <servers />
   </component>
@@ -543,15 +417,36 @@
     <history-entry file="AtmicIntegerDetailTest_testCreate - 2020.02.03 at 19h 21m 31s.xml">
       <configuration name="AtmicIntegerDetailTest.testCreate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AtomicBooleanTest_TestCreateWithOutArguments - 2020.02.04 at 11h 47m 19s.xml">
+      <configuration name="AtomicBooleanTest.TestCreateWithOutArguments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicBooleanTest_TestCreateWithOutArguments - 2020.02.04 at 11h 47m 52s.xml">
+      <configuration name="AtomicBooleanTest.TestCreateWithOutArguments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicBooleanTest_TestGetAndSet - 2020.02.04 at 15h 32m 23s.xml">
+      <configuration name="AtomicBooleanTest.TestGetAndSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicBooleanTest_testCompareAndSet - 2020.02.04 at 15h 38m 31s.xml">
+      <configuration name="AtomicBooleanTest.testCompareAndSet" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47056000" />
+    <option name="totallyTimeSpent" value="62320000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35827664" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09221467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -559,8 +454,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.11691885" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.85006875" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.11691885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14167812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,81 +486,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1195">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="122" column="6" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/ImmutableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/UserPersonThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter7/ImmutableClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter8/Future.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -995,19 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/JITTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#183#296#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#369#469#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtmicIntegerDetailTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1031,23 +838,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/JDK/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/JITTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="305" column="38" selection-start-line="305" selection-start-column="38" selection-end-line="305" selection-end-column="38" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/AtomicIntegerTest.java">
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/GetLockException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="32" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1528#1635#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1773#1880#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/CompareAndSetLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerDetailTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicBooleanTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicBooleanFlag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#239#247#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="303" column="30" selection-start-line="303" selection-start-column="30" selection-end-line="303" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JDK/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicStampedReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="154" column="17" lean-forward="true" selection-start-line="154" selection-start-column="17" selection-end-line="154" selection-end-column="17" />
+          <folding>
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#248#0" expanded="true" />
           </folding>
         </state>
       </provider>

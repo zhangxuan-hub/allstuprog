@@ -1,4 +1,4 @@
-package allstuprog.com.zx.multithreading3;
+package allstuprog.com.zx.multithreading3.atomic;
 
 public class JITTest {
 

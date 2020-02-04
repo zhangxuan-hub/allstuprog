@@ -1,4 +1,4 @@
-package allstuprog.com.zx.multithreading3;
+package allstuprog.com.zx.multithreading3.atomic;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -63,35 +63,35 @@ public class AtomicIntegerTest {
 
     System.out.println(set.size());*/
 
-    final AtomicInteger value = new AtomicInteger(0);
-    new Thread() {
-      @Override
-      public void run() {
-        for (int i = 0; i < 10; i++) {
-          int v = value.getAndAdd(1);
-          System.out.println(Thread.currentThread().getName() + "：" + v);
-          try {
-            Thread.sleep(100);
-          } catch (InterruptedException e) {
-            e.printStackTrace();
-          }
-        }
-      }
-    }.start();
-    new Thread() {
-      @Override
-      public void run() {
-        for (int i = 0; i < 10; i++) {
-          int v = value.getAndAdd(1);
-          System.out.println(Thread.currentThread().getName() + ":" + v);
-          try {
-            Thread.sleep(100);
-          } catch (InterruptedException e) {
-            e.printStackTrace();
-          }
-        }
-      }
-    }.start();
+//    final AtomicInteger value = new AtomicInteger(0);
+//    new Thread() {
+//      @Override
+//      public void run() {
+//        for (int i = 0; i < 10; i++) {
+//          int v = value.getAndAdd(1);
+//          System.out.println(Thread.currentThread().getName() + "：" + v);
+//          try {
+//            Thread.sleep(100);
+//          } catch (InterruptedException e) {
+//            e.printStackTrace();
+//          }
+//        }
+//      }
+//    }.start();
+//    new Thread() {
+//      @Override
+//      public void run() {
+//        for (int i = 0; i < 10; i++) {
+//          int v = value.getAndAdd(1);
+//          System.out.println(Thread.currentThread().getName() + ":" + v);
+//          try {
+//            Thread.sleep(100);
+//          } catch (InterruptedException e) {
+//            e.printStackTrace();
+//          }
+//        }
+//      }
+//    }.start();
 //    Thread t1 = new Thread() {
 //      @Override
 //      public void run() {
@@ -137,6 +137,11 @@ public class AtomicIntegerTest {
 //    t3.join();
 //
 //    System.out.println(set.size());
+
+    AtomicInteger i = new AtomicInteger(12);
+    boolean b = i.compareAndSet(12, 20);
+    System.out.println(i.get());
+    System.out.println(b);
   }
 
 }
