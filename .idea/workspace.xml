@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d950b21a-23d8-428e-9b92-231919ceaa86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicIntegerArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/multithreading3/atomic/AtomicStampReferenceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorLongTimeTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorBuild.java" beforeDir="false" afterPath="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorBuild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/juc/utils/phaser/PhaserExample1$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/threadtwo/target/classes/allstuprog/com/zx/juc/utils/phaser/PhaserExample1.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mybatis/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,15 +23,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="co.zx.allstuprog" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicIntegerArrayTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="1349">
+              <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample4.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28880">
+              <caret line="1590" column="19" selection-start-line="1590" selection-start-column="19" selection-end-line="1590" selection-end-column="19" />
+              <folding>
+                <element signature="e#31791#31792#0" expanded="true" />
+                <element signature="e#31834#31835#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,13 +74,62 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Thread</find>
+      <find>Thread-</find>
+      <find>1581769873065</find>
+      <find>1581769875068</find>
+      <find>1581769887072</find>
+      <find>1581769899076</find>
+      <find>1581769883070</find>
+      <find>rej</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicBooleanTest.java" />
         <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicIntegerArrayTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/AtomicIntegerFieldTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/TestMe.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/FailedAtomicIntegerUpdaterTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/UnsafeTest.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/CountDownLatchExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/CountDownLatchExaplem2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/CycliBarrierExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/CyclicBarrierExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/exchanger/ExchangeExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/exchanger/ExchangerExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/exchanger/ExchangerExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SamephoreExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SemaphoreExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SamephoreExample3.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SamephoreExample4.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/ReentrantLockExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/ReadWriteLockExample.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/condition/ConditionExample.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/condition/ConditionExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/StampedLock.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/StampedLockExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/StampedLockExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin/ForkJoinRecursiveTask.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin/ForkJoinRecursiveAction.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/phaser/PhaserExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/phaser/PhaserExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorBuild.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorTask.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorLongTimeTask.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample1.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample2.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample3.java" />
+        <option value="$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample4.java" />
       </list>
     </option>
   </component>
@@ -55,7 +141,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="335" />
     <option name="y" value="140" />
     <option name="width" value="1185" />
@@ -135,76 +221,61 @@
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
-              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zx" type="462c0819:PsiDirectoryNode" />
-              <item name="atmic" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="co.zx.allstuprog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="threadtwo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="allstuprog" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zx" type="462c0819:PsiDirectoryNode" />
+              <item name="juc" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="executors" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581330853369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584934833105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,28 +289,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AtomicIntegerArrayTest.testCreateAtomicIntegerArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ExecutorServiceExample4">
+    <configuration name="ExcecutorServiceExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.juc.utils.executors.ExcecutorServiceExample1" />
       <module name="threadtwo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="allstuprog.com.zx.atmic.*" />
+          <option name="PATTERN" value="allstuprog.com.zx.juc.utils.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="allstuprog.com.zx.atmic" />
-      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.atmic.AtomicIntegerArrayTest" />
-      <option name="METHOD_NAME" value="testCreateAtomicIntegerArray" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcecutorServiceExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.juc.utils.executors.ExcecutorServiceExample3" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.juc.utils.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.juc.utils.executors.ExecutorServiceExample2" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.juc.utils.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.juc.utils.executors.ExecutorServiceExample4" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.juc.utils.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorsExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="allstuprog.com.zx.juc.utils.executors.ExecutorsExample2" />
+      <module name="threadtwo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allstuprog.com.zx.juc.utils.executors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AtomicIntegerArrayTest.testCreateAtomicIntegerArray" />
+        <item itemvalue="Application.ExecutorServiceExample4" />
+        <item itemvalue="Application.ExcecutorServiceExample3" />
+        <item itemvalue="Application.ExecutorServiceExample2" />
+        <item itemvalue="Application.ExcecutorServiceExample1" />
+        <item itemvalue="Application.ExecutorsExample2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -254,33 +381,89 @@
       <workItem from="1581317826081" duration="379000" />
       <workItem from="1581318208457" duration="3000" />
       <workItem from="1581319965954" duration="1876000" />
+      <workItem from="1581418838140" duration="19000" />
+      <workItem from="1581467379710" duration="2447000" />
+      <workItem from="1581469857005" duration="7299000" />
+      <workItem from="1581496297831" duration="6526000" />
+      <workItem from="1581582181435" duration="599000" />
+      <workItem from="1581592632068" duration="4591000" />
+      <workItem from="1581667232358" duration="12113000" />
+      <workItem from="1581683931861" duration="114000" />
+      <workItem from="1581753537023" duration="12386000" />
+      <workItem from="1581809825598" duration="83000" />
+      <workItem from="1581838370777" duration="10752000" />
+      <workItem from="1581905514363" duration="6000" />
+      <workItem from="1581930173350" duration="1040000" />
+      <workItem from="1581932302548" duration="4494000" />
+      <workItem from="1581941595665" duration="53000" />
+      <workItem from="1582017045457" duration="7322000" />
+      <workItem from="1582071030957" duration="4310000" />
+      <workItem from="1582094413391" duration="44000" />
+      <workItem from="1582244768698" duration="3057000" />
+      <workItem from="1582335966278" duration="4744000" />
+      <workItem from="1582504519856" duration="3902000" />
+      <workItem from="1582540295470" duration="598000" />
+      <workItem from="1583458822082" duration="613000" />
+      <workItem from="1583802874432" duration="811000" />
+      <workItem from="1584146949167" duration="8895000" />
+      <workItem from="1584320763527" duration="644000" />
+      <workItem from="1584407030856" duration="4717000" />
+      <workItem from="1584925620956" duration="3322000" />
+      <workItem from="1584930647244" duration="4203000" />
+      <workItem from="1584948656243" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AtomicIntegerArrayTest_testCreateAtomicIntegerArray - 2020.02.10 at 15h 43m 36s.xml">
-      <configuration name="AtomicIntegerArrayTest.testCreateAtomicIntegerArray" configurationId="JUnit" />
+    <history-entry file="AtomicIntegerArrayTest_testGetAndSet - 2020.02.12 at 08h 41m 22s.xml">
+      <configuration name="AtomicIntegerArrayTest.testGetAndSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicIntegerArrayTest_testGetAndSet - 2020.02.12 at 08h 41m 34s.xml">
+      <configuration name="AtomicIntegerArrayTest.testGetAndSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicIntegerArrayTest_testGetAndSet - 2020.02.12 at 08h 41m 43s.xml">
+      <configuration name="AtomicIntegerArrayTest.testGetAndSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtomicIntegerArrayTest_testGetAndSet - 2020.02.12 at 08h 43m 27s.xml">
+      <configuration name="AtomicIntegerArrayTest.testGetAndSet" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_test - 2020.02.12 at 09h 22m 49s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_testPrivateFieldAccesserError - 2020.02.12 at 09h 27m 56s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.testPrivateFieldAccesserError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_testPrivateFieldAccesserError - 2020.02.12 at 09h 28m 25s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.testPrivateFieldAccesserError" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_testTargetObjectIsNull - 2020.02.12 at 09h 29m 48s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.testTargetObjectIsNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_testFieldIsNoVolatile - 2020.02.12 at 09h 37m 57s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.testFieldIsNoVolatile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailedAtomicIntegerUpdaterTest_testFieldIsNoVolatile - 2020.02.12 at 09h 40m 26s.xml">
+      <configuration name="FailedAtomicIntegerUpdaterTest.testFieldIsNoVolatile" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2258000" />
+    <option name="totallyTimeSpent" value="112253000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49337262" visible="true" weight="0.32372653" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5022091" side_tool="true" weight="0.14410187" />
+      <window_info id="Structure" order="6" sideWeight="0.49779087" weight="0.14075068" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.24889544" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15316643" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,7 +471,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.22091311" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
+      <window_info anchor="bottom" id="Tail" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,26 +484,483 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49554366" visible="true" weight="0.29021448" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.50445634" side_tool="true" weight="0.16621985" />
+      <window_info id="Structure" order="6" sideWeight="0.49910873" weight="0.14477211" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.30338734" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15169367" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5013405" side_tool="true" weight="0.22091311" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Tail" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading3/atomic/JITTest.java">
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SamephoreExample4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="63" selection-end-column="1" />
           <folding>
-            <element signature="e#368#507#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threadtwo/src/test/java/allstuprog/com/zx/atmic/AtomicIntegerArrayTest.java">
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/ReentrantLockExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="-228">
+          <caret line="21" selection-start-line="2" selection-end-line="91" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/multithreading2/chapter6/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/ReadWriteLockExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-713">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-635">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="696" selection-start-line="696" selection-end-line="696" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/lang/UnsupportedOperationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1179" column="7" lean-forward="true" selection-start-line="1179" selection-start-column="7" selection-end-line="1179" selection-end-column="7" />
+          <folding>
+            <element signature="e#46422#46423#0" expanded="true" />
+            <element signature="e#46479#46480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/semaphore/SamephoreExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/condition/ConditionExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/condition/ConditionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="214" column="13" selection-start-line="214" selection-start-column="13" selection-end-line="214" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin.java" />
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/cyclicbarrier/CyclicBarrierExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/countdownLatch/CountDownLatchExaplem2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/countdownLatch/CountDownLatchExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/ForkJoinTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/StampedLockExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="15" selection-start-line="2" selection-end-line="92" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/lock/StampedLockExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/RecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin/ForkJoinRecursiveTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="357" column="19" selection-start-line="357" selection-start-column="19" selection-end-line="357" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="204" column="28" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/forkjoin/ForkJoinRecursiveAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/Phaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="589" column="15" selection-start-line="589" selection-start-column="15" selection-end-line="589" selection-end-column="15" />
+          <folding>
+            <element signature="e#23276#23277#0" expanded="true" />
+            <element signature="e#23312#23313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/phaser/PhaserExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/phaser/PhaserExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorBuild.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ThreadPoolExecutorLongTimeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="2531" column="11" selection-start-line="2531" selection-start-column="11" selection-end-line="2531" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorsExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3914">
+          <caret line="248" column="11" selection-start-line="248" selection-start-column="11" selection-end-line="248" selection-end-column="11" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="264" column="11" selection-start-line="264" selection-start-column="11" selection-end-line="264" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="e#1663#1664#0" expanded="true" />
+            <element signature="e#1693#1694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding>
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/RejectedExecutionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+          <folding>
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="144" column="32" selection-start-line="144" selection-start-column="32" selection-end-line="144" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="88" column="56" selection-start-line="88" selection-start-column="48" selection-end-line="88" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/Callable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="286" column="19" selection-start-line="286" selection-start-column="13" selection-end-line="286" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExcecutorServiceExample3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="72" column="38" selection-start-line="72" selection-start-column="38" selection-end-line="72" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/jdk/jdk18/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28880">
+          <caret line="1590" column="19" selection-start-line="1590" selection-start-column="19" selection-end-line="1590" selection-end-column="19" />
+          <folding>
+            <element signature="e#31791#31792#0" expanded="true" />
+            <element signature="e#31834#31835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadtwo/src/main/java/allstuprog/com/zx/juc/utils/executors/ExecutorServiceExample4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
